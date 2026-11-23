@@ -1,0 +1,231 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  font-family: Helvetica;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+div {
+  display: flex
+}
+
+section {
+  display: flex;
+  flex: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: lightgray;
+  
+}
+
+.header {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+  color: #F9FAF8;
+  text-align: center;
+}
+
+.footer {
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: #1F2937;
+  font-weight: 600;
+}
+
+.summary .button {
+  margin-right: auto;
+}
+
+.signup .button {
+  border: 1px solid #F9FAF8;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup,
+.button {
+  background-color: #3882F6;
+  color: #F9FAF8
+}
+
+header,
+footer,
+.summary {
+  background-color: #1F2937;
+}
+
+header,
+footer,
+.summary,
+.information,
+.testimony,
+.signup {
+  padding-left: 220px;
+  padding-right: 220px;
+}
+
+
+.summary {
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.summary .content {
+  flex-flow: column wrap;
+  color: lightgray;
+  flex-shrink: 1;
+}
+
+.summary .img-placeholder {
+  color: lightgray;
+  background-color: gray;
+  margin: 12px;
+  margin-bottom: 54px;
+  margin-right: 0px;
+  margin-left: 24px;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 auto;
+}
+
+.information .content {
+  flex-flow: column wrap;
+  flex: 1 1 auto;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+
+.information .boxes {
+  flex-flow: nowrap;
+  flex: 1 1 auto;
+}
+
+.block {
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.box {
+  width: 160px;
+  height: 160px;
+  aspect-ratio: 1;
+  border: 3px solid blue;
+  border-radius: 12px;
+}
+
+.sub {
+  text-align: center;
+  width: 160px;
+  flex: 1 1 auto;
+}
+
+.testimony {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteblock {
+  flex-flow: column wrap;
+  flex: 1 1 auto;
+}
+
+p {
+  margin: 4px;
+}
+
+#thor {
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.signup {
+  margin: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.signup .content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  /*padding-bottom: 18px;
+  padding-top: 18px;*/
+}
+
+.signup .signup-text {
+  display: flex;
+  flex-flow: column;
+}
+
+.signup .signup-text .signup-p {
+  margin-top: 2px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.signup .signup-button {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
